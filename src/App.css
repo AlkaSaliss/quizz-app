@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body {
   padding: 20px;
 }
 
-/* Navbar */
+// Navbar
 nav {
   background-color: #333;
   color: #fff;
@@ -43,7 +43,7 @@ nav ul li button {
   cursor: pointer;
 }
 
-/* Home Page */
+// Home Page
 .home-page {
   text-align: center;
   padding: 40px 0;
@@ -81,7 +81,7 @@ nav ul li button {
   cursor: pointer;
 }
 
-/* Quiz Page */
+// Quiz Page
 .quiz-page {
   padding: 40px 0;
 }
@@ -115,7 +115,7 @@ nav ul li button {
   cursor: pointer;
 }
 
-/* Summary Page */
+// Summary Page
 .summary-page {
   padding: 40px 0;
 }
@@ -148,7 +148,7 @@ nav ul li button {
 }
 
 
-/* Quizzes Page */
+// Quizzes Page
 .quizzes-page {
   padding: 20px;
 }
@@ -192,4 +192,4 @@ nav ul li button {
 
 .quiz-button:hover {
   background-color: #555;
-}
+} */
