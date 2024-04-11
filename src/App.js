@@ -15,7 +15,8 @@ const App = () => {
       <LoginContextProvider>
         <Navbar />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          {/* <Route path="/" element={<HomePage />} /> */}
+          <Route path="/quizz-app" element={<HomePage />} />
           <Route path="/freestyle" element={<FreeStylePage />} />
           <Route path="/quiz/:quizId" element={<PlayQuizPage />} />
           <Route path="/summary" element={<SummaryPage />} />

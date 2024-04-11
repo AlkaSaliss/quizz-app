@@ -1,25 +1,22 @@
 import React, { useState } from 'react'
-import { shuffle } from 'lodash'
-import quizzes from '../data/all_quizzes'
+import freestyleQuizData from '../data/freestyle_quiz'
 
 
-const allQuestions = []
-quizzes.forEach(quiz => {
-    quiz.questions.forEach(question => {
-        const correctChoiceObject = question.choices.find(
-            (choice) => choice.id === question.correctChoice
-        )
+const allQuestions = [
+    ...freestyleQuizData.vie_privee,
+    ...freestyleQuizData.histoire,
+    ...freestyleQuizData.geographie,
+    ...freestyleQuizData.politique,
+    ...freestyleQuizData.europe,
+]
 
-        const filteredQuestion = {
-            id: question.id,
-            text: question.text,
-            choices: question.choices.map((choice) => choice.text),
-            correctAnswer: correctChoiceObject?.text,
-        }
-        allQuestions.push(filteredQuestion)
-    })
-})
-const shuffledQuestions = shuffle(allQuestions)
+const themesMapping = {
+    'vie_privee': 'Vie Privée',
+    'histoire': 'Histoire',
+    'geographie': 'Géographie',
+    'politique': 'Politique',
+    'europe': 'Europe',
+}
 
 
 const FreeStylePage = () => {
@@ -29,38 +26,31 @@ const FreeStylePage = () => {
     const handleNextQuestion = () => {
         setCurrentQuestionIndex((prevIndex) => {
             const nextIndex = prevIndex + 1
-            return nextIndex < shuffledQuestions.length ? nextIndex : 0
+            return nextIndex < allQuestions.length ? nextIndex : 0
         })
     }
 
     const handlePreviousQuestion = () => {
         setCurrentQuestionIndex((prevIndex) => {
             const nextIndex = prevIndex - 1
-            return nextIndex >= 0 ? nextIndex : shuffledQuestions.length - 1
+            return nextIndex >= 0 ? nextIndex : allQuestions.length - 1
         })
     }
 
-    const currentQuestion = shuffledQuestions[currentQuestionIndex]
+    const currentQuestion = allQuestions[currentQuestionIndex]
 
     return (
         <div className="container mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold mb-5 text-center ">Quiz FreeStyle ⏳</h1>
             <p className="text-gray-400 text-center mb-4">
-                Question {currentQuestionIndex + 1} / {shuffledQuestions.length}
+                Question {currentQuestionIndex + 1} / {allQuestions.length} - Theme: {themesMapping[currentQuestion.id.split('__')[0]]}
             </p>
             {currentQuestion && (
                 <div className="card bg-base-100 shadow-md rounded-lg p-4">
-                    <h2 className="text-xl font-bold mb-2 text-white">{currentQuestion.text}</h2>
-                    <ul className="list-none pl-4">
-                        {currentQuestion.choices.map((choice, index) => (
-                            <li key={index} className="mb-2 text-white">
-                                {choice}
-                            </li>
-                        ))}
-                    </ul>
+                    <h2 className="text-xl font-bold mb-2 text-white">{currentQuestion.question}</h2>
                     <details className="mt-4">
                         <summary className="cursor-pointer font-bold text-white">Révéler la réponse</summary>
-                        <p className="text-gray-400">{currentQuestion.correctAnswer}</p>
+                        <p className="text-gray-400">{currentQuestion.answer}</p>
                     </details>
                     <div className="flex justify-between mt-4">
                         <button
@@ -72,7 +62,7 @@ const FreeStylePage = () => {
                         </button>
                         <button
                             className="btn btn-sm btn-primary disabled:btn-disabled"
-                            disabled={currentQuestionIndex === shuffledQuestions.length - 1}
+                            disabled={currentQuestionIndex === allQuestions.length - 1}
                             onClick={handleNextQuestion}
                         >
                             Suivant

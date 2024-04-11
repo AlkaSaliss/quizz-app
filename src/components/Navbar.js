@@ -13,13 +13,13 @@ const NavBar = () => {
     e.preventDefault()
     Cookies.remove('pseudo')
     setPseudo('')
-    navigate("/")
+    navigate("/quizz-app")
   }
 
   return (
     <div className="navbar bg-base-300 justify-center items-center gap-10">
       <div className="flex-1 flex justify-center mr-auto">
-        <Link to="/">
+        <Link to="/quizz-app">
           <div className="btn btn-ghost text-xl">Accueil</div>
         </Link>
       </div>
