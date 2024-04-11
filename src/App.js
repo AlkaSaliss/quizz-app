@@ -4,18 +4,21 @@ import HomePage from './components/HomePage'
 import PlayQuizPage from './components/PlayQuizPage'
 import SummaryPage from './components/SummaryPage'
 import Navbar from './components/Navbar'
-import './App.css'
+import FreeStylePage from './components/FreeStylePage'
 import LoginContextProvider from './contexts/login-context'
+import './App.css'
 
-function App() {
+
+const App = () => {
   return (
     <Router>
       <LoginContextProvider>
         <Navbar />
         <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/freestyle" element={<FreeStylePage />} />
           <Route path="/quiz/:quizId" element={<PlayQuizPage />} />
           <Route path="/summary" element={<SummaryPage />} />
-          <Route path="/" element={<HomePage />} />
         </Routes>
       </LoginContextProvider>
     </Router>
