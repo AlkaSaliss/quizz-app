@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom' // Update this line
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import HomePage from './components/HomePage'
 import PlayQuizPage from './components/PlayQuizPage'
 import SummaryPage from './components/SummaryPage'
@@ -15,7 +15,6 @@ const App = () => {
       <LoginContextProvider>
         <Navbar />
         <Routes>
-          {/* <Route path="/" element={<HomePage />} /> */}
           <Route path="/quizz-app" element={<HomePage />} />
           <Route path="/freestyle" element={<FreeStylePage />} />
           <Route path="/quiz/:quizId" element={<PlayQuizPage />} />

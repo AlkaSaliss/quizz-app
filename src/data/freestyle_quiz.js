@@ -866,7 +866,7 @@ const freestyleQuizData = {
         {
             "id": "histoire__Q46",
             "question": "Depuis quand les femmes ont-elles le droit de vote en France ?",
-            "answer": "Depuis le 21 avril 1929."
+            "answer": "Depuis le 21 avril 1944."
         },
         {
             "id": "histoire__Q47",

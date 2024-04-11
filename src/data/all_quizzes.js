@@ -26,7 +26,7 @@ const quizzes = [
                         "text": "Jean Rousseau"
                     }
                 ],
-                "correctChoice": "history-question1-choice1"
+                "correctChoice":  "history-question1-choice3"
             },
             {
                 "id": "history-question2",
@@ -264,7 +264,7 @@ const quizzes = [
                 "choices": [
                     {
                         "id": "history-question12-choice1",
-                        "text": "21 avril 1929"
+                        "text": "21 avril 1944"
                     },
                     {
                         "id": "history-question12-choice2",
@@ -2676,7 +2676,7 @@ const quizzes = [
                     },
                     {
                         "id": "geography-question2-choice2",
-                        "text": "Côte-d'Or, Yonne et Creuse"
+                        "text": "Yvelines, Essone et Paris"
                     },
                     {
                         "id": "geography-question2-choice3",
@@ -2684,10 +2684,10 @@ const quizzes = [
                     },
                     {
                         "id": "geography-question2-choice4",
-                        "text": "Seine-Maritime, Aube et Vaucluse"
+                        "text": "Tous les choix ci-dessus"
                     }
                 ],
-                "correctChoice": "geography-question2-choice3"
+                "correctChoice": "geography-question2-choice4"
             },
             {
                 "id": "geography-question3",
@@ -2726,14 +2726,18 @@ const quizzes = [
                     },
                     {
                         "id": "geography-question4-choice3",
-                        "text": "Hauts-de-France, Grand Est et Occitanie"
+                        "text": "Hauts-de-France, Grand Est, Occitanie et Nouvelle-Aquitaine"
                     },
                     {
                         "id": "geography-question4-choice4",
                         "text": "Bourgogne-Franche-Comté, Auvergne-Rhône-Alpes et Provence-Alpes-Côte d'Azur"
+                    },
+                    {
+                        "id": "geography-question4-choice5",
+                        "text": "Tous les choix ci-dessus"
                     }
                 ],
-                "correctChoice": "geography-question4-choice1"
+                "correctChoice": "geography-question4-choice5"
             },
             {
                 "id": "geography-question5",
@@ -2894,11 +2898,11 @@ const quizzes = [
                         "text": "Yvelines"
                     }
                 ],
-                "correctChoice": "geography-question11-choice1"
+                "correctChoice": "geography-question11-choice4"
             },
             {
                 "id": "geography-question12",
-                "text": "Qui est le ou la maire de votre département ?",
+                "text": "Qui est le ou la maire de votre commune ?",
                 "choices": [
                     {
                         "id": "geography-question12-choice1",
@@ -2914,10 +2918,10 @@ const quizzes = [
                     },
                     {
                         "id": "geography-question12-choice4",
-                        "text": "Marine Le Pen"
+                        "text": "Raphael Cognet"
                     }
                 ],
-                "correctChoice": "geography-question12-choice3"
+                "correctChoice": "geography-question12-choice4"
             }
         ]
     },
@@ -2979,22 +2983,22 @@ const quizzes = [
                 "choices": [
                     {
                         "id": "politics-question3-choice1",
-                        "text": "La laïcité garantit la liberté de conscience."
+                        "text": "La laïcité garantit la liberté des orientations politiques."
                     },
                     {
                         "id": "politics-question3-choice2",
-                        "text": "La laïcité garantit la liberté de culte."
+                        "text": "La laïcité garantit la liberté de croire ou de ne pas croire ainsi que la neutralité de l'Etat face aux religions."
                     },
                     {
                         "id": "politics-question3-choice3",
-                        "text": "La laïcité garantit la liberté de parole religieuse."
+                        "text": "La laïcité garantit le droit de vote."
                     },
                     {
                         "id": "politics-question3-choice4",
-                        "text": "La laïcité garantit la liberté de religion."
+                        "text": "La laïcité garantit la liberté de penser."
                     }
                 ],
-                "correctChoice": "politics-question3-choice1"
+                "correctChoice": "politics-question3-choice2"
             },
             {
                 "id": "politics-question4",
@@ -3084,9 +3088,13 @@ const quizzes = [
                     {
                         "id": "politics-question7-choice4",
                         "text": "Liberté de voyager."
+                    },
+                    {
+                        "id": "politics-question7-choice5",
+                        "text": "Tous les choix ci-dessus."
                     }
                 ],
-                "correctChoice": "politics-question7-choice2"
+                "correctChoice": "politics-question7-choice5"
             },
             {
                 "id": "politics-question8",
@@ -3129,10 +3137,10 @@ const quizzes = [
                     },
                     {
                         "id": "politics-question9-choice4",
-                        "text": "Tous les citoyens ont le droit de circuler."
+                        "text": "Tous les choix ci-dessus."
                     }
                 ],
-                "correctChoice": "politics-question9-choice2"
+                "correctChoice": "politics-question9-choice4"
             },
             {
                 "id": "politics-question10",
@@ -3309,14 +3317,14 @@ const quizzes = [
                     },
                     {
                         "id": "politics-question17-choice3",
-                        "text": "Alain Juppé."
+                        "text": "Elisabeth Borne."
                     },
                     {
                         "id": "politics-question17-choice4",
                         "text": "Jean Castex."
                     }
                 ],
-                "correctChoice": "politics-question17-choice1"
+                "correctChoice": "politics-question17-choice3"
             },
             {
                 "id": "politics-question18",
@@ -3416,22 +3424,22 @@ const quizzes = [
                 "choices": [
                     {
                         "id": "politics-question22-choice1",
-                        "text": "Jacques Chirac, François Mitterrand, Valéry Giscard d'Estaing."
+                        "text": "François Mitterrand, Emmanuel Macron, Charles de Gaulle, Georges Pompidou, Valéry Giscard d'Estaing, Nicolas Sarkozy, François Hollande, Jacques Chirac"
                     },
                     {
                         "id": "politics-question22-choice2",
-                        "text": "François Mitterrand, Jacques Chirac, Valéry Giscard d'Estaing."
+                        "text": "Charles de Gaulle, Georges Pompidou, Valéry Giscard d'Estaing, François Mitterrand, Nicolas Sarkozy, Emmanuel Macron, Jacques Chirac, François Hollande"
                     },
                     {
                         "id": "politics-question22-choice3",
-                        "text": "Charles de Gaulle, Georges Pompidou, François Mitterrand."
+                        "text": "Valéry Giscard d'Estaing, François Hollande, Georges Pompidou, François Mitterrand, Emmanuel Macron, Nicolas Sarkozy, Jacques Chirac, Charles de Gaulle"
                     },
                     {
                         "id": "politics-question22-choice4",
-                        "text": "Charles de Gaulle, Georges Pompidou, Valéry Giscard d'Estaing."
+                        "text": "Charles de Gaulle, Georges Pompidou, Valéry Giscard d'Estaing, François Mitterrand, Jacques Chirac, Nicolas Sarkozy, François Hollande, Emmanuel Macron"
                     }
                 ],
-                "correctChoice": "politics-question22-choice3"
+                "correctChoice": "politics-question22-choice4"
             },
             {
                 "id": "politics-question23",
@@ -3452,9 +3460,13 @@ const quizzes = [
                     {
                         "id": "politics-question23-choice4",
                         "text": "Édouard Balladur, Laurent Fabius, Michel Rocard."
+                    },
+                    {
+                        "id": "politics-question23-choice5",
+                        "text": "Tous les choix ci-dessus."
                     }
                 ],
-                "correctChoice": "politics-question23-choice1"
+                "correctChoice": "politics-question23-choice5"
             },
             {
                 "id": "politics-question24",
@@ -3623,22 +3635,22 @@ const quizzes = [
                 "choices": [
                     {
                         "id": "politics-question31-choice1",
-                        "text": "Le pouvoir exécutif."
+                        "text": "Le pouvoir exécutif, le pouvoir judiciaire et le pouvoir administratif."
                     },
                     {
                         "id": "politics-question31-choice2",
-                        "text": "Le pouvoir législatif."
+                        "text": "Le pouvoir exécutif, le pouvoir législatif et le pouvoir judiciaire."
                     },
                     {
                         "id": "politics-question31-choice3",
-                        "text": "Le pouvoir judiciaire."
+                        "text": "Le pouvoir politique, le pouvoir législatif et le pouvoir judiciaire."
                     },
                     {
                         "id": "politics-question31-choice4",
-                        "text": "Le pouvoir administratif."
+                        "text": "Le pouvoir exécutif, le pouvoir législatif et le pouvoir populaire."
                     }
                 ],
-                "correctChoice": "politics-question31-choice1"
+                "correctChoice": "politics-question31-choice2"
             },
             {
                 "id": "politics-question32",

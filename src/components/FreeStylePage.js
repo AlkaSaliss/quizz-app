@@ -54,7 +54,7 @@ const FreeStylePage = () => {
                     </details>
                     <div className="flex justify-between mt-4">
                         <button
-                            className="btn btn-sm btn-ghost disabled:btn-disabled"
+                            className="btn btn-sm btn-secondary disabled:btn-disabled"
                             disabled={currentQuestionIndex === 0}
                             onClick={handlePreviousQuestion}
                         >
