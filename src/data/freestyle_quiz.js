@@ -362,107 +362,106 @@ const freestyleQuizData = {
         {
             "id": "vie_privee__Q1",
             "question": "Pourquoi voulez-vous devenir français?",
-            "answer": "La réponse à cette question peut sembler facile, mais il faut garder en tête que vous devez prouver et démontrer votre implication. Vous devrez effectivement bien préparer la réponse à cette question car elle est très importante. Vous devez expliquer clairement pourquoi vous sentez que vous êtes devenu français et expliquer qu'au jour d'aujourd'hui, vous vous sentez plus français-française que citoyen de votre pays d'origine, montrez clairement que vous n'avez plus aucune alternative. Vous devez citer également les valeurs de la France auxquelles vous adhérez, en démontrant par exemple que vous êtes en train de bâtir en France un projet personnel ou professionnel. Vous devez expliquer votre mode de vie actuel qui doit être à la française et que vous appréciez beaucoup. Vous devez également expliquer que vous admirez la place de la France sur le paysage mondial, citez par exemple le fait que la France soit la troisième économie mondiale, le leader aéronautique avec l'Allemagne, l'agroalimentaire, l'industrie du luxe. Enfin, vous pouvez citer le patrimoine culturel français en citant la richesse culturelle de la France et son impact sur les sciences, l'art et la littérature."
+            "answer": "Je classerai mes motivations selon différents axes: En termes de vie familiale, je suis en France depuis 8 ans, où j'ai réalisé la majeure partie de ma vie, y ayant fait mes études supérieures et travaillé de manière continue pendant près de 6 ans. Je vis avec ma femme ici et nous allons bientôt devenir parents, ce qui signifie que mes enfants seront également scolarisés en France. En fait, au cours de ces 8 ans, je n'ai visité mon pays d'origine que deux fois. Mes vacances et mes loisirs se déroulent aujourd'hui en France. Sur le plan politique et des valeurs, j'admire la stabilité politique et les institutions françaises, offrant une projection plus sereine sur les plans personnel et professionnel (contrairement à des pays comme le Niger, où les coups d'État sont fréquents). J'adhère pleinement aux valeurs de la France, notamment exprimées par sa devise, une réalité vécue quotidiennement et non de simples mots vides de sens. En termes professionnels, je travaille dans le domaine de l'intelligence artificielle, considéré comme la troisième révolution industrielle, où la France joue un rôle majeur. De nombreux chercheurs ayant révolutionné ce domaine sont français, et de nombreuses start-ups mondialement connues sont françaises. Personnellement, j'ai l'intention de créer une entreprise dans le domaine de l'application de l'IA à l'agriculture. Ainsi, rester dans cet écosystème français me permettra non seulement de contribuer à l'avancement de ce domaine, mais aussi de bénéficier de l'expertise présente. Enfin, cotiser en ayant la fierté de contribuer à mon pays est une valeur importante pour moi."
         },
         {
             "id": "vie_privee__Q2",
             "question": "A quelle fréquence rentrez-vous dans votre pays d'origine ?",
-            "answer": "Attention à bien répondre à cette question en donnant si possible un chiffre exact et surtout soyez le plus honnête possible car n'oubliez pas que l'administration a votre passeport avec tous les cachets d'entrée sortis du territoire français."
+            "answer": "Je suis rentré 2 fois en 8 ans, en 2019 et en 2021"
         },
         {
             "id": "vie_privee__Q3",
             "question": "Êtes-vous marié ? Avez-vous un copain, copine, compagne, mari ou femme ?",
-            "answer": "Si vous êtes célibataire et seul, alors la réponse est évidente. Si vous êtes marié ou pacsé, répondez par oui en précisant depuis combien de temps ? Assurez-vous de répondre correctement à cette question en répondant que oui. N'oubliez pas que votre conjoint ou partenaire doit vivre avec vous et en France. Si ce n'est pas le cas, il y a des chances que votre demande de naturalisation française vous soit refusée car on vous reprochera d'avoir des attaches à l'étranger. Dans ce cas de figure, vous ne résidez pas en France, mais vous êtes uniquement domicilié en France, vous n'êtes donc pas éligible à la naturalisation par décret."
+            "answer": "Oui je suis marié depuis 2019. Mais nous vivons ensemble depuis 2021."
         },
         {
             "id": "vie_privee__Q4",
             "question": "Quelles sont les activités que vous effectuez avec votre conjoint, partenaire ?",
-            "answer": "Parlez avec votre conjoint, partenaire. Ici, parlez des activités sportives et culturelles de vos sorties le week-end et de vos vacances."
+            "answer": "Nous organisons des vacances pour explorer les différentes régions françaises. Nous nous sommes principalement concentrés sur le sud, en particulier Marseille et Nice, principalement parce que nous ne sommes pas habitués à la mer ou à l'océan. Pour ma part, j'ai également exploré un peu les montagnes, notamment à Grenoble et en Savoie. Cependant, nos projets futurs incluent de visiter davantage l'ouest, notamment la Normandie. En dehors de cela, dans notre vie quotidienne, nous allons au cinéma dans notre ville et nous visitons également les monuments et les lieux emblématiques de l'Île-de-France, tels que la tour Eiffel, le musée du Louvre et le quartier d'affaires de La Défense. D'ailleurs, nous prévoyons très prochainement de visiter le château de Versailles."
         },
         {
             "id": "vie_privee__Q5",
             "question": "Avez-vous des enfants ? Comptez-vous en avoir prochainement ?",
-            "answer": "Répondez selon votre situation, veillez juste à préciser que les enfants seront et resteront en France."
+            "answer": "Pas encore, mais il y en a un qui est en route. Si tout se passe bien, d’ici les vacances d’été, nous serons parents."
         },
         {
             "id": "vie_privee__Q6",
             "question": "Dans le couple, qui s'occupe des enfants ? Qui s'occupe des tâches ménagères ?",
-            "answer": "Ici Il n'est pas juste question d'aider à faire le ménage ou d'aider à s'occuper des enfants. L'agent cherchera plus concrètement à savoir si les tâches sont distribuées à part égale et à responsabilité égale entre les parents. Vous ne direz donc pas « j'aide ma femme » ou « j'aide mon mari », mais plutôt « nous participons ensemble et à part égale aux tâches ménagères et pour s'occuper des enfants »."
+            "answer": "Nous partageons ensemble les différentes tâches. Par exemple, l'un de nous fait les courses pendant que l'autre fait la vaisselle et cuisine. Je passe l'aspirateur pendant qu'elle passe derrière moi avec la serpillière, et ainsi de suite. L'avantage d'avoir vécu seul en tant qu'étudiant puis en tant que jeune professionnel est que vous apprenez à vous occuper de la maison, à faire le ménage, etc."
         },
         {
             "id": "vie_privee__Q7",
             "question": "Avez-vous vos liens personnels et familiaux en France ?",
-            "answer": "En réponse à cette question, citez tous vos liens familiaux. Cousins, grands-parents, parents, vos amis, votre famille en général, si vous en avez en France. L'objectif principal est de montrer que vos liens familiaux et amicaux sont solides en France et que vos liens et vos habitudes démontrent votre intégration grâce à des liens forts avec la France. "
+            "answer": "L’essentiel de mes amis se trouvent aujourd'hui ici en France. Certaines amitiés sont nées à l’école, d’autres avec des collègues, et d’autres encore avec des voisins. Du côté de la famille, j'ai quelques oncles et tantes en région parisienne, à Rennes et à Lyon. Cependant, ce ne sont pas des oncles directs, mais plutôt des parents éloignés."
         },
         {
             "id": "vie_privee__Q8",
             "question": "Quelle langue utilisez-vous au travail et dans la vie de tous les jours ?",
-            "answer": "Vous devez répondre « j'utilise la langue française pour tous mes échanges au travail et dans la vie de tous les jours »."
+            "answer": "Le Français au quotidien. Mais il m’arrive d’échanger en anglais lorsqu’on échange avec des collègues qui sont à l’étranger dans des pays non Francophone, comme les USA, GB."
         },
         {
             "id": "vie_privee__Q9",
             "question": "Êtes-vous membre d'une association ? Si oui, laquelle et depuis quand ?",
-            "answer": "Vous n'êtes pas obligé de faire partie d'une association, mais si vous faites partie d'une association, ou si vous avez été membre d'une association, il est important de le citer car ce sont des points en plus pour vos réponses aux questions de l'entretien de naturalisation française, surtout si l'association aide les personnes les plus démunies. Attention ! Le fait de faire ou d'avoir fait des dons à une association ne fait pas de vous un membre de cette association."
+            "answer": "Non. Meme si j'interviens pour donner des cours aux étudiants défavorisés en Afrique, a travers une association Africa Techup Tour."
         },
         {
             "id": "vie_privee__Q10",
             "question": "Pratiquez-vous une religion ?",
-            "answer": "Quelles qu'elles soient, citez là ou les religions que vous pratiquez."
+            "answer": "Oui je suis musulman."
         },
         {
             "id": "vie_privee__Q11",
             "question": "Quels sont vos loisirs ?",
-            "answer": "Citez tous vos loisirs de tous les jours. La marche, la lecture, le foot, la natation, la musique, le cinéma."
+            "answer": "Je pratiquais la boxe avec des collègues, du football avec d’anciens camarades d’école qui habitent en région parisienne. Ensuite, je consacre du temps à la lecture, et je regarde beaucoup de dessins animés pour me détendre."
         },
         {
             "id": "vie_privee__Q12",
             "question": "Pourquoi êtes-vous venu en France la toute première fois ?",
-            "answer": "Pour vos études, pour le travail, pour rejoindre votre famille en France, répondez selon votre situation."
+            "answer": "Pour les études initialement, puis je suis resté pour le travail quand des opportunités se sont presentées."
         },
         {
             "id": "vie_privee__Q14",
             "question": "Qu'avez-vous trouvé en France que vous n'avez pas dans votre pays d'origine ?",
-            "answer": "Ici aussi, répondez selon votre situation en valorisant la France. Citez par exemple la démocratie, la liberté, la culture, la science."
+            "answer": "La qualité de l’instruction notamment sur des domaines de pointe comme l’IA, la stabilité politique et économique permettant de se réaliser professionnellement. Il ya également des aspects concernant la valorisation du patrimoine culturel à travers des monuments et des places emblematiques qui permettent d'assouvir la soif de découverte."
         },
         {
             "id": "vie_privee__Q15",
-            "question": "Où avez-vous appris le français ?",
-            "answer": "Citez quelques lieux où vous avez appris la langue française, par exemple à l'école, dans mon pays d'origine, dans un centre culturel français, cours particuliers, cours en ligne, voyages linguistiques."
+            "question": "A l'école, puis à travers mes lectures dans mon pays d'origine"
         },
         {
             "id": "vie_privee__Q16",
             "question": "Pendant combien de temps avez-vous étudié le français ?",
-            "answer": "Répondez en fonction de votre situation. Par exemple, j'ai appris le français pendant 2 ans ou 5 ans ou 10 ans. Veuillez noter qu'il faudra juste que vous ayez appris le français. Veuillez noter qu'il faudra justifier d'un niveau suffisant de français, niveau minimum B1, pour réussir votre entretien de naturalisation française. Si vous prenez des cours, n'hésitez pas à le mentionner tout en mettant l'accent sur le fait que vous prenez des cours pour atteindre rapidement le niveau B2."
+            "answer": "Depuis 1999."
         },
         {
             "id": "vie_privee__Q17",
             "question": "Utilisez-vous la langue française au travail ?",
-            "answer": "Oui, si vous n'utilisez pas le français au travail, il est important d'expliquer pourquoi et de parler d'un projet en particulier durant lequel vous avez utilisé le français."
+            "answer": "Oui la plupart du temps. Nénamoins nous avons des collègues qui sont un peu partout dans le monde, notamment en Amérique du Nord ou en Grande Bretagne. Lorsque je suis amené à échanger avec eux nous utilisons plutot l'Anglais."
         },
         {
             "id": "vie_privee__Q18",
             "question": "Parlez-vous d'autres langues ? Si oui, lesquelles ?",
-            "answer": "Citez votre langue maternelle par exemple, ainsi que toutes les autres langues étrangères que vous connaissez en plus du français."
+            "answer": "L’anglais du fait de mon domaine. Le Hausa qui est ma langue maternelle et qui doit être dans le top 3 des langues africaines"
         },
         {
             "id": "vie_privee__Q19",
             "question": "Quelle langue vous paraît la plus facile ? Pourquoi ?",
-            "answer": "Le français, car c'est la langue que j'utilise dans la vie de tous les jours."
+            "answer": "Le Français car c’est la langue que j’utilise tous les jours, au travail, avec les amis, dans mes lectures, les films ou documentaires que je regarde, cette langue est omniprésente."
         },
         {
             "id": "vie_privee__Q20",
             "question": "Avez-vous de la famille proche ou lointaine dans votre pays d'origine ? Si oui, comptez-vous les faire venir en France ?",
-            "answer": "Attention, ceci est une question piège. Vos oncles, cousins-grands-parents ainsi que votre famille lointaine n'ont pas le droit de s'installer en France juste parce que vous êtes devenu français. Donc si vous avez encore de la famille dans votre pays d'origine, répondez par « oui, mais je ne compte pas les faire venir en France ». L'agent ne doit surtout pas comprendre que vous voulez acquérir la nationalité française uniquement pour le passeport français ou afin de gagner suffisamment d'argent pour vivre confortablement dans votre pays d'origine. Vous pouvez garder vos liens avec votre pays d'origine, mais il ne faut pas que ces derniers soient plus importants que vos liens qui vous rattachent à la France."
+            "answer": "Mon père est décédé, mais ma mère est toujours là-bas. J'ai aussi mes frères et sœurs qui vivent là-bas. Ils ont déjà leur travail et ont déjà construit leur vie familiale là-bas. Je n'ai aucune raison de les faire venir."
         },
         {
             "id": "vie_privee__Q21",
             "question": "Où passez-vous vos vacances ?",
-            "answer": "Basez-vous surtout sur les villes françaises que vous avez visitées. On citera par exemple Nice, Paris, Lille, Brest, Marseille ou Strasbourg."
+            "answer": "Essentiellement en France. J’ai fait Marseille, Nice, Cannes et Grenoble."
         },
         {
             "id": "vie_privee__Q22",
             "question": "Quelles sont les nationalités des personnes de votre entourage ?",
-            "answer": "Vous devez montrer que la majorité des personnes qui vous entourent sont français et que vous n'êtes pas fan du communautarisme."
+            "answer": "L'essentiel des personnes que je côtoie aujourd'hui sont françaises, qu'il s'agisse de mes amis d'école, de mes collègues ou de mes voisins. Néanmoins, j'ai quand même des amis de différentes nationalités que j'ai rencontrés à l'école, notamment des amis avec qui j'ai étudié au Sénégal, car il s'agissait d'une école régionale."
         }
     ],
     "europe": [
