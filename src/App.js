@@ -5,6 +5,7 @@ import PlayQuizPage from './components/PlayQuizPage'
 import SummaryPage from './components/SummaryPage'
 import Navbar from './components/Navbar'
 import FreeStylePage from './components/FreeStylePage'
+import FreeStyleQuizPage from './components/FreeStyleQuizPage'
 import LoginContextProvider from './contexts/login-context'
 import './App.css'
 
@@ -17,6 +18,7 @@ const App = () => {
         <Routes>
           <Route path="/quizz-app" element={<HomePage />} />
           <Route path="/freestyle" element={<FreeStylePage />} />
+          <Route path="/freestyle/:quizId" element={<FreeStyleQuizPage />} />
           <Route path="/quiz/:quizId" element={<PlayQuizPage />} />
           <Route path="/summary" element={<SummaryPage />} />
         </Routes>

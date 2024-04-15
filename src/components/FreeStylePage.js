@@ -1,75 +1,27 @@
-import React, { useState } from 'react'
+import React from 'react'
 import freestyleQuizData from '../data/freestyle_quiz'
-
-
-const allQuestions = [
-    ...freestyleQuizData.vie_privee,
-    ...freestyleQuizData.histoire,
-    ...freestyleQuizData.geographie,
-    ...freestyleQuizData.politique,
-    ...freestyleQuizData.europe,
-]
-
-const themesMapping = {
-    'vie_privee': 'Vie Privée',
-    'histoire': 'Histoire',
-    'geographie': 'Géographie',
-    'politique': 'Politique',
-    'europe': 'Europe',
-}
+import { Link } from 'react-router-dom'
+import { themesMapping } from '../data/constants'
 
 
 const FreeStylePage = () => {
-    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
-    
-
-    const handleNextQuestion = () => {
-        setCurrentQuestionIndex((prevIndex) => {
-            const nextIndex = prevIndex + 1
-            return nextIndex < allQuestions.length ? nextIndex : 0
-        })
-    }
-
-    const handlePreviousQuestion = () => {
-        setCurrentQuestionIndex((prevIndex) => {
-            const nextIndex = prevIndex - 1
-            return nextIndex >= 0 ? nextIndex : allQuestions.length - 1
-        })
-    }
-
-    const currentQuestion = allQuestions[currentQuestionIndex]
 
     return (
         <div className="container mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold mb-5 text-center ">Quiz FreeStyle ⏳</h1>
-            <p className="text-gray-400 text-center mb-4">
-                Question {currentQuestionIndex + 1} / {allQuestions.length} - Theme: {themesMapping[currentQuestion.id.split('__')[0]]}
-            </p>
-            {currentQuestion && (
-                <div className="card bg-base-100 shadow-md rounded-lg p-4">
-                    <h2 className="text-xl font-bold mb-2 text-white">{currentQuestion.question}</h2>
-                    <details className="mt-4">
-                        <summary className="cursor-pointer font-bold text-white">Révéler la réponse</summary>
-                        <p className="text-gray-400">{currentQuestion.answer}</p>
-                    </details>
-                    <div className="flex justify-between mt-4">
-                        <button
-                            className="btn btn-sm btn-secondary disabled:btn-disabled"
-                            disabled={currentQuestionIndex === 0}
-                            onClick={handlePreviousQuestion}
-                        >
-                            Précédent
-                        </button>
-                        <button
-                            className="btn btn-sm btn-primary disabled:btn-disabled"
-                            disabled={currentQuestionIndex === allQuestions.length - 1}
-                            onClick={handleNextQuestion}
-                        >
-                            Suivant
-                        </button>
-                    </div>
-                </div>
-            )}
+            <h1 className="text-3xl font-bold mb-24 text-center ">Sélectionner une thématique</h1>
+            <ul className="list-none p-0 flex flex-col items-center">
+                {Object.keys(freestyleQuizData).map((quiz_id) => (
+                    <li key={quiz_id} className="mb-2 w-48">
+                        <Link to={`/freestyle/${quiz_id}`}>
+                            <button
+                                className="text-center   w-full py-2 px-4 border border-gray-300 rounded hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                            >
+                                {themesMapping[quiz_id]}
+                            </button>
+                        </Link>
+                    </li>
+                ))}
+            </ul>
         </div>
     )
 }

@@ -1,5 +1,3 @@
-"use client"
-
 import { Link } from 'react-router-dom'
 import React from 'react'
 
@@ -15,7 +13,7 @@ const QuizCard = ({ quizData }) => {
                 <p>{quizData.description}</p>
                 <Link to={`/quiz/${quizData.id}`}>
                     <div className="card-actions">
-                        <button className="btn btn-primary">Start Quiz</button>
+                        <button className="btn btn-primary">Jouer au QCM</button>
                     </div>
                 </Link>
             </div>
