@@ -11,7 +11,7 @@ const QuizCard = ({ quizData }) => {
             <div className="card-body items-center text-center">
                 <h2 className="card-title">{quizData.title}</h2>
                 <p>{quizData.description}</p>
-                <Link to={`/quiz/${quizData.id}`}>
+                <Link to={`/quizz-app/quiz/${quizData.id}`}>
                     <div className="card-actions">
                         <button className="btn btn-primary">Jouer au QCM</button>
                     </div>

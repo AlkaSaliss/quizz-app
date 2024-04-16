@@ -6,11 +6,16 @@ import QuizCard from './QuizCard'
 
 const QuizComponent = () => {
     return (
-        <div >
+        <div>
 
+            <h1 className="hover:bg-slate-800 mx-auto mb-10 rounded-md shadow shadow-stone-600 text-xl font-medium my-10 text-center w-3/4 lg:w-1/4">
+                <Link to="/quizz-app/freestyle">
+                    Cliquez ici pour jouer en mode Question/Reponse (200 questions)
+                </Link>
+            </h1>
             <h1 className="hover:bg-slate-800 mx-auto rounded-md shadow shadow-stone-600 text-xl font-medium my-10 text-center w-3/4 lg:w-1/4">
-                <Link to="/freestyle">
-                    Cliquez ici pour jouer en mode Question/Reponse
+                <Link to="/quizz-app/freestyle120">
+                    Cliquez ici pour jouer en mode Question/Reponse (120 questions)
                 </Link>
             </h1>
 

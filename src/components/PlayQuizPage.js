@@ -39,7 +39,7 @@ const PlayQuizPage = () => {
     <div className="flex flex-col gap-4 items-center mt-20">
       {showSummary ? (
         <button
-          onClick={() => navigate('/summary', { state: { answers, quizId } })}
+          onClick={() => navigate('/quizz-app/summary', { state: { answers, quizId } })}
           className="btn w-40 mt-40 bg-emerald-900"
         >
           Afficher le résultat
