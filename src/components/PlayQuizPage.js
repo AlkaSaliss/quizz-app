@@ -1,13 +1,11 @@
 import React, { useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import _ from 'lodash'
 import quizzes from '../data/all_quizzes'
 
 
 const PlayQuizPage = () => {
   const { quizId } = useParams()
   const quiz = quizzes.find((q) => q.id === quizId)
-  quiz.questions = _.shuffle(quiz.questions)
   const totalQuestions = quiz.questions.length
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [answers, setAnswers] = useState([])
@@ -58,7 +56,7 @@ const PlayQuizPage = () => {
             />
           )}
           <ul className="list-none p-0">
-            {_.shuffle(question.choices).map((choice) => (
+            {question.choices.map((choice) => (
               <li key={choice.id} className="mb-2">
                 <button
                   onClick={() => handleAnswer(choice.id)}
